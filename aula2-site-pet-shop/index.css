@@ -1,0 +1,106 @@
+body {
+  background-color: black;
+  font-family: 'Fredoka One', cursive;
+}
+
+h2 {
+  font-size: 72px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  height: 60px;
+  width: 100vw;
+  padding-bottom: 10px;
+  background-color: transparent;
+  position: fixed;
+  opacity: .2;
+}
+
+.nav:hover {
+  opacity: 1;
+  transition: 3s;
+}
+
+.hov {
+  opacity: .5;
+}
+
+.hov:hover {
+  opacity: 1;
+  transition: 1s ease-in-out;
+  pointer-events: auto;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.name:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.bg {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://images.unsplash.com/photo-1503431128871-cd250803fa41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.jumb {
+  height: 70vh;
+  margin-left: 350px;
+  height: 20vh;
+  background-color: black;
+}
+
+.voltar {
+  text-decoration: none;
+  color: white;
+}
+
+.voltar:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.modal-backdrop {
+   background-color: lightblue;
+}
+
+.m-text {
+  color: black;
+}
+
+.contato:hover {
+ cursor: pointer;
+}
+
+.top-modal {
+  margin-top: 400px;
+  margin-left: 40px;
+}
+
+.end {
+  width: 400px;
+}
