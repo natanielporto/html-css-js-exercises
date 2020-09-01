@@ -1,0 +1,320 @@
+body {
+  background: url("https://images.unsplash.com/photo-1501449464997-86f52f4f9f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1280px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+.logo {
+  margin-top: 15%;
+  height: 40vh;
+  width: 50vw;
+  object-fit: cover;
+}
+
+.styledBtn {
+  margin: 0 24px;
+  width: 150px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #bdc59c;
+  color: black;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  align-items: ;
+}
+
+.styledBtnForm {
+  margin: 0 24px;
+  width: 150px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+.img-nav {
+  width: 350px;
+  height: 170px;
+  margin: auto;
+  background: white;
+  padding-bottom: 50px;
+  opacity: 0.7;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.topReservationSection {
+  margin: 60px 40px;
+  padding: 40px;
+}
+
+.styledSection {
+  display: inline;
+}
+
+.input-group {
+  margin-bottom: 24px;
+}
+
+.marginBottom {
+  margin-bottom: 32px;
+  padding: 8px;
+}
+
+.input-group-text {
+  text-align: center !important;
+  width: 150px;
+}
+
+.reservationCheck {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  background: white;
+  width: 50%;
+}
+
+.specialWidth {
+  width: 742px;
+  margin: auto;
+}
+
+.alignSection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.photoSection {
+  margin: 40px;
+  display: inline-block;
+}
+
+.d-block {
+  width: 250px;
+  margin: 15px;
+}
+
+.mapSection {
+  width: 650px;
+  display: flex;
+  margin: 80px auto;
+}
+
+.styledMap {
+  border: 1rem solid white;
+  background: white;
+  opacity: 0.7;
+  border-radius: 20px;
+  padding: 7px 7px 0 7px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialLogo {
+  height: 200px;
+  width: 200px;
+  color: black;
+  background: white;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  font-size: 91px;
+  margin: 48px;
+}
+
+.socialLogo:hover {
+  transition: 0.5s;
+  background: black;
+  color: white;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+.socialLogos {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.formStyle {
+  width: 750px;
+  margin: 10px 0;
+}
+
+.labelDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: white;
+  width: 750px;
+  border-radius: 5px;
+  height: 35px;
+  line-height: 5px;
+  margin: 8px 0;
+}
+
+.btnAlign {
+  display: flex;
+  justify-content: center;
+}
+
+.mainLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+i:hover {
+  animation-name: spin;
+  animation-duration: 100ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  color: white;
+}
+@keyframes spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 364px) {
+  body {
+    background-size: auto;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .topReservationSection {
+    margin: auto;
+    padding-bottom: 0;
+  }
+
+  .reservationCheck {
+    display: none;
+  }
+
+  .input-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8px;
+    width: 280px;
+  }
+
+  .marginBottom {
+    margin-bottom: 8px;
+  }
+
+  .img-nav {
+    width: 80%;
+  }
+
+  .logo {
+    width: 450px;
+  }
+
+  .styledMap {
+    display: none;
+  }
+
+  .addressSmall {
+    color: white;
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+
+  .smallFooter {
+    margin-top: 20px;
+  }
+
+  .specialWidth {
+    width: 70%;
+    margin: 0;
+  }
+
+  .styledBtn {
+    display: flex;
+    margin: 15px auto 0 auto;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialLogos {
+    margin: 20px 20px;
+    display: flex;
+  }
+
+  .socialLogo {
+    width: 100px;
+    height: 100px;
+    font-size: 48px;
+    margin: 10px;
+  }
+
+  .photoSection {
+    width: 80%;
+    height: 300px;
+    margin: 0;
+    margin: auto;
+  }
+
+  .formStyle {
+    width: 280px;
+  }
+
+  .labelDiv {
+    width: 280px;
+    height: 70px;
+    display: flex;
+  }
+
+  .divideRadio {
+    margin: 10px 0;
+  }
+
+  .photoSection {
+    display: flex;
+    height: 280px;
+    margin-top: 15px;
+  }
+
+  .d-block {
+    width: 125px;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 365px) {
+  .addressSmall {
+    display: none;
+  }
+
+  .smallFooter {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>1º Exercício HTML</title>
+  </head>
+
+  <body>
+      <nav>
+        <a href="index.html">
+          <div
+          class="img-nav"
+          >
+          <img class="logo" src="logo.svg" alt="Logo da pousada" />
+        </div>
+      </a>
+    </nav>
+
+    <section class="topReservationSection">
+    <div class="styledSection">
+      <div class="specialWidth">
+          <input type="text" class="formStyle" placeholder="Nome completo"/>
+          <input type="text" class="formStyle" placeholder="Telefone / Whatsapp"/>
+          <div class="labelDiv">
+            <div class="divideRadio">
+              <div>
+                <input type="radio" id="Solteiro" name="number">
+                <label for="Solteiro">Solteiro</label>
+              </div>
+              <div>
+                <input type="radio" id="Casal" name="number">
+                <label for="Casal">Casal</label>
+              </div>
+            </div>
+            <div class="divideRadio">
+              <div>
+                <input type="radio" id="Família" name="number">
+                <label for="Família">Família</label>
+              </div>
+              <div>
+                <input type="radio" id="Várias Famílias" name="number">
+                <label for="Várias Famílias">Várias Famílias</label>
+              </div>
+            </div>
+          </div>
+          <select class="formStyle">
+            <option>Horário para contato</option>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+            <option>Madrugada</option>
+          </select>
+          <input type="text" class="formStyle" placeholder="e-Mail"/>
+      </div>
+      </div>
+    </div>
+    <section class="marginBottom">
+      <div class="form-check reservationCheck">
+        <div>
+          <input type="checkbox">
+          <label style="line-height: 3px; background: green">Aceito receber atualizações e ofertas da The Cabin in the Woods</label>
+        </div>
+      </div>
+    </section>
+    <div class="btnAlign">
+      <button class="styledBtnForm">
+        Voltar
+      </button>
+      <button class="styledBtnForm">
+        Enviar
+      </button>
+    </div>
+  </section>
+  
+  <footer class="smallFooter">
+      <button class="styledBtn">
+        <a href="reservas.html">Reservas</a>
+      </button>
+      <button class="styledBtn">
+        <a href="fotos.html">Fotos</a>
+      </button>
+      <button class="styledBtn">
+        <a href="contato.html">Contato</a>
+      </button>
+      <button class="styledBtn">
+        <a href="endereco.html">Localização</a>
+      </button>
+    </footer>
+  </body>
+</html>

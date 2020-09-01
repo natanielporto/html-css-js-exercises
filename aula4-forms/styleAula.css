@@ -1,0 +1,38 @@
+body {
+  margin: 50px 250px;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  grid-template-rows: auto auto auto;
+}
+
+header {
+  background-color: aquamarine;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+footer {
+  background-color: lawngreen;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+nav {
+  background-color: mediumorchid;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+article {
+  background-color: mediumturquoise;
+}
+
+aside {
+  background-color: olive;
+  grid-column: 3;
+  grid-row: 2;
+}
