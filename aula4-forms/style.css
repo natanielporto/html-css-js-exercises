@@ -32,7 +32,8 @@ a:hover {
   border: none;
   font-size: 16px;
   display: flex;
-  align-items: ;
+  align-items: center;
+  justify-content: center;
 }
 
 .styledBtnForm {
@@ -69,6 +70,12 @@ a:hover {
   display: inline;
 }
 
+.divideRadio {
+  display: flex;
+  width: 350px;
+  justify-content: space-around;
+}
+
 .input-group {
   margin-bottom: 24px;
 }
@@ -89,6 +96,13 @@ a:hover {
   margin: auto;
   background: white;
   width: 50%;
+}
+
+.initialText {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  margin-bottom: 20px;
 }
 
 .specialWidth {
@@ -151,7 +165,7 @@ a:hover {
 .socialLogos {
   margin: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .formStyle {
@@ -204,6 +218,16 @@ i:hover {
     background-size: auto;
     height: 100vh;
     object-fit: cover;
+  }
+
+  .mainLayout {
+    width: 80%;
+    background: white;
+    height: 160px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    margin: 80px auto 0 auto;
+    opacity: 0.6;
   }
 
   .topReservationSection {
@@ -293,7 +317,9 @@ i:hover {
   }
 
   .divideRadio {
-    margin: 10px 0;
+    margin: 0;
+    display: inline;
+    justify-content: center;
   }
 
   .photoSection {
@@ -305,6 +331,13 @@ i:hover {
   .d-block {
     width: 125px;
     margin: 5px;
+  }
+
+  .initialText {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 60px 0;
   }
 }
 
